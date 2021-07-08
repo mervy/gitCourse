@@ -23,7 +23,7 @@ As configurações realizadas através dos comandos abaixo serão incluídas no 
 	$ git config --global user.name "João de Deus"
 
 ##### Setar email
-	$ git config --global user.email leonardo@software-ltda.com.br
+	$ git config --global user.email meu-email@server.com.br
 	
 ##### Setar editor
 	$ git config --global core.editor vim
@@ -71,7 +71,7 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 	
 ##### Adicionar um arquivo que esta listado no .$ gitignore (geral ou do repositório)
 	
-	$ git add -f arquivo_no_$ gitignore.txt
+	$ git add -f arquivo_no_ gitignore.txt
 	
 ### Comitar arquivo/diretório
 
@@ -318,10 +318,11 @@ A mensagem indicando um *merge* manual será:
 
 	$ git checkout -b bug-123 origin/bug-123
 
-
 ##### Apagar branch remoto
 
-	$ git push origin:bug-123
+	$ git push origin:bug-123  ou
+	$ git push -d origin bug-123
+
 
 ### Rebasing
 
@@ -393,8 +394,7 @@ Aplique a alteração
 
 	$ git rebase --continue
 
-**Atenção:** É possível alterar a ordem dos commits ou remover um commit apenas
-mudando as linhas ou removendo.
+**Atenção:** É possível alterar a ordem dos commits ou remover um commit apenas mudando as linhas ou removendo.
 
 
 ##### Juntando vários commits
