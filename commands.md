@@ -1,4 +1,4 @@
-# GIT
+# Lista Completa de comandos do GIT
 
 ## Estados
 
@@ -9,24 +9,18 @@
 ## Ajuda
 
 ##### Geral
-	git help
-	
-##### Comando específico
-	git help add
-	git help commit
-	git help <qualquer_comando_git>
-	
+	git help	
 
 ## Configuração
 
 ### Geral
 
-As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\Leonardo ou *nix /home/leonardo).
+As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\User ou *nix /home/user).
 
 As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
 
 ##### Setar usuário
-	git config --global user.name "Leonardo Comelli"
+	git config --global user.name "João de Deus"
 
 ##### Setar email
 	git config --global user.email leonardo@software-ltda.com.br
